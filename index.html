@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="vi">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Portfolio Backend Developer của Nguyễn Hữu Phúc">
+    <title>Nguyễn Hữu Phúc | Backend Developer</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@400;500;600;700;800&family=IBM+Plex+Sans:wght@500;600;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="bg-orb orb-a" aria-hidden="true"></div>
+    <div class="bg-orb orb-b" aria-hidden="true"></div>
+    <div class="grid-overlay" aria-hidden="true"></div>
+
+    <header class="site-header" id="home">
+        <div class="container nav-wrap">
+            <a class="brand" href="#home" aria-label="Trang chủ">
+                <span class="brand-mark">NHP</span>
+                <span class="brand-text">Hữu Phúc.dev</span>
+            </a>
+
+            <button class="nav-toggle" id="nav-toggle" aria-label="Mở menu" aria-expanded="false">
+                <span></span>
+                <span></span>
+            </button>
+
+            <nav class="site-nav" id="site-nav">
+                <a href="#about">Giới thiệu</a>
+                <a href="#skills">Kỹ năng</a>
+                <a href="#projects">Dự án</a>
+                <a href="#contact">Liên hệ</a>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section class="hero section">
+            <div class="container hero-grid">
+                <div class="hero-content" data-reveal>
+                    <p class="kicker">Lập trình viên Backend | Java Developer</p>
+                    <h1>Xin chào, mình là <span>Nguyễn Hữu Phúc</span></h1>
+                    <p class="hero-intro">
+                        Mình theo đuổi Backend Developer, tập trung vào Java Spring Boot với định hướng xây dựng hệ
+                        thống
+                        ổn định, dễ mở rộng và hiệu năng tốt. Mình hứng thú với các bài toán có độ khó cao, luôn chủ
+                        động
+                        thử nghiệm, đo lường và tối ưu để tạo ra giải pháp thực tế, dễ vận hành.
+                    </p>
+                    <div class="hero-actions">
+                        <a class="btn btn-primary" href="#projects">Xem dự án</a>
+                        <a class="btn btn-ghost" href="#contact">Liên hệ ngay</a>
+                    </div>
+                </div>
+
+                <aside class="hero-card" data-reveal>
+                    <h2>Thông tin nhanh</h2>
+                    <ul>
+                        <li>
+                            <span class="label">Kinh nghiệm</span>
+                            <span class="value blank" aria-hidden="true"></span>
+                        </li>
+                        <li>
+                            <span class="label">Công nghệ</span>
+                            <span class="value blank" aria-hidden="true"></span>
+                        </li>
+                        <li>
+                            <span class="label">Địa điểm</span>
+                            <span class="value blank" aria-hidden="true"></span>
+                        </li>
+                        <li>
+                            <span class="label">Email</span>
+                            <span class="value blank" aria-hidden="true"></span>
+                        </li>
+                    </ul>
+                </aside>
+            </div>
+        </section>
+
+        <section class="section" id="about">
+            <div class="container about-layout">
+                <div class="section-head" data-reveal>
+                    <p class="kicker">Giới thiệu</p>
+                    <h2>Tổng quan về bản thân và định hướng phát triển</h2>
+                </div>
+
+                <div class="about-card" data-reveal>
+                    <p class="about-text">Mình là sinh viên năm 3 ngành Công nghệ Thông tin tại Đại học Sài Gòn,
+                        đang theo đuổi lộ trình Backend Developer với Java Spring Boot. Mình ưu tiên tư duy nền tảng:
+                        thiết kế API rõ ràng, cấu trúc dữ liệu hợp lý và code dễ bảo trì.</p>
+                    <p class="about-text">Trong quá trình học và làm dự án, mình thường đảm nhận các phần như thiết kế
+                        cơ sở dữ liệu, xử lý nghiệp vụ backend, xác thực phân quyền và tối ưu truy vấn. Mục tiêu của
+                        mình là tạo ra những hệ thống ổn định, chạy mượt và mang lại trải nghiệm tốt cho người dùng.</p>
+                    <div class="milestones">
+                        <div>
+                            <strong>Mục tiêu ngắn hạn</strong>
+                            <span>Nâng vững Spring Security, Redis và viết test bài bản.</span>
+                        </div>
+                        <div>
+                            <strong>Mục tiêu dài hạn</strong>
+                            <span>Trở thành Backend Engineer có thể thiết kế hệ thống end-to-end.</span>
+                        </div>
+                        <div>
+                            <strong>Giá trị cá nhân</strong>
+                            <span>Kỷ luật, chủ động học nhanh và không ngại thử thách.</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="section" id="skills">
+            <div class="container">
+                <div class="section-head" data-reveal>
+                    <p class="kicker">Công nghệ</p>
+                    <h2>Những công nghệ mình sử dụng cho lộ trình Backend Java</h2>
+                </div>
+
+                <div class="skills-grid">
+                    <article class="skill-card" data-reveal>
+                        <h3>Nền tảng Backend (Java)</h3>
+                        <ul class="tech-list">
+                            <li>Java Core (OOP, Collections Framework)</li>
+                            <li>Spring Boot</li>
+                            <li>Spring Security</li>
+                            <li>Spring Data JPA</li>
+                            <li>Thiết kế RESTful API</li>
+                        </ul>
+                    </article>
+
+                    <article class="skill-card" data-reveal>
+                        <h3>Cơ sở dữ liệu</h3>
+                        <ul class="tech-list">
+                            <li>MySQL</li>
+                            <li>SQL Server</li>
+                            <li>Thiết kế cơ sở dữ liệu quan hệ (cơ bản)</li>
+                            <li>Tối ưu truy vấn SQL (cơ bản)</li>
+                        </ul>
+                    </article>
+
+                    <article class="skill-card" data-reveal>
+                        <h3>Công cụ và kiến thức bổ trợ</h3>
+                        <ul class="tech-list">
+                            <li>Git / GitHub</li>
+                            <li>DBeaver (SQL client)</li>
+                            <li>Postman</li>
+                            <li>Maven / Gradle</li>
+                            <li>HTML, CSS, JavaScript</li>
+                        </ul>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <section class="section" id="projects">
+            <div class="container">
+                <div class="section-head" data-reveal>
+                    <p class="kicker">Dự án</p>
+                    <h2>Một số dự án tiêu biểu và phần việc mình phụ trách</h2>
+                </div>
+
+                <div class="projects-grid">
+                    <article class="project-card" data-reveal>
+                        <h3>API Quản lý bán hàng (Ví dụ)</h3>
+                        <p class="project-summary">Hệ thống backend cho quản lý sản phẩm, đơn hàng và khách hàng.</p>
+                        <ul class="project-meta">
+                            <li><strong>Team size:</strong> 4 người</li>
+                            <li><strong>Vai trò:</strong> Backend Developer</li>
+                            <li><strong>Công nghệ:</strong> Java Spring Boot, MySQL, Redis, JWT</li>
+                            <li><strong>Bạn đã làm:</strong> Thiết kế database, xây dựng 20+ API, phân quyền user/admin,
+                                tối ưu truy vấn giảm thời gian phản hồi.</li>
+                        </ul>
+                        <a href="#" aria-label="Xem chi tiết dự án API Quản lý bán hàng">Xem chi tiết -></a>
+                    </article>
+
+                    <article class="project-card" data-reveal>
+                        <h3>Hệ thống đặt lịch khám (Ví dụ)</h3>
+                        <p class="project-summary">Nền tảng đặt lịch và quản lý lịch hẹn giữa bệnh nhân và phòng khám.
+                        </p>
+                        <ul class="project-meta">
+                            <li><strong>Team size:</strong> 3 người</li>
+                            <li><strong>Vai trò:</strong> Backend Developer chính</li>
+                            <li><strong>Công nghệ:</strong> Java Spring Boot, PostgreSQL, Docker</li>
+                            <li><strong>Bạn đã làm:</strong> Xây auth JWT, xử lý đặt lịch tránh trùng slot, viết API
+                                thông báo, viết test cho module đặt lịch.</li>
+                        </ul>
+                        <a href="#" aria-label="Xem chi tiết dự án Hệ thống đặt lịch khám">Xem chi tiết -></a>
+                    </article>
+
+                    <article class="project-card" data-reveal>
+                        <h3>Nền tảng theo dõi vận chuyển (Ví dụ)</h3>
+                        <p class="project-summary">Hệ thống backend cập nhật trạng thái đơn hàng theo từng chặng.</p>
+                        <ul class="project-meta">
+                            <li><strong>Team size:</strong> 5 người</li>
+                            <li><strong>Vai trò:</strong> Backend Developer</li>
+                            <li><strong>Công nghệ:</strong> Java Spring Boot, MongoDB, Kafka</li>
+                            <li><strong>Bạn đã làm:</strong> Thiết kế event cho cập nhật trạng thái, xây API tracking,
+                                cache dữ liệu bằng Redis để truy vấn nhanh hơn.</li>
+                        </ul>
+                        <a href="#" aria-label="Xem chi tiết dự án Nền tảng theo dõi vận chuyển">Xem chi tiết -></a>
+                    </article>
+
+                    <article class="project-card" data-reveal>
+                        <h3>Ứng dụng quản lý chi tiêu (Ví dụ)</h3>
+                        <p class="project-summary">Backend quản lý ví tiền, danh mục và thống kê chi tiêu theo tháng.
+                        </p>
+                        <ul class="project-meta">
+                            <li><strong>Team size:</strong> 2 người</li>
+                            <li><strong>Vai trò:</strong> Backend Developer</li>
+                            <li><strong>Công nghệ:</strong> Java Spring Boot, MySQL, Swagger</li>
+                            <li><strong>Bạn đã làm:</strong> Thiết kế API CRUD theo domain, viết tài liệu API bằng
+                                Swagger, thêm validation để hạn chế lỗi dữ liệu đầu vào.</li>
+                        </ul>
+                        <a href="#" aria-label="Xem chi tiết dự án Ứng dụng quản lý chi tiêu">Xem chi tiết -></a>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <section class="section" id="contact">
+            <div class="container contact-layout">
+                <div class="section-head" data-reveal>
+                    <p class="kicker">Liên hệ</p>
+                    <h2>Bạn có dự án cần triển khai? Hãy gửi tin nhắn cho mình.</h2>
+                    <p class="contact-mail">Email: [để bạn tự cập nhật]</p>
+                </div>
+
+                <form class="contact-form" id="contact-form" data-reveal>
+                    <label for="name">Họ tên</label>
+                    <input id="name" name="name" type="text" placeholder="Nguyễn Văn A" required>
+
+                    <label for="email">Email</label>
+                    <input id="email" name="email" type="email" placeholder="example@email.com" required>
+
+                    <label for="message">Nội dung</label>
+                    <textarea id="message" name="message" rows="5" placeholder="Mô tả nhanh yêu cầu của bạn..."
+                        required></textarea>
+
+                    <button type="submit" class="btn btn-primary">Gửi liên hệ</button>
+                    <p class="form-status" id="form-status" aria-live="polite"></p>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <div class="container footer-wrap">
+            <p>© <span id="year"></span> Nguyễn Hữu Phúc. Đã đăng ký bản quyền.</p>
+            <a href="#home">Lên đầu trang</a>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
