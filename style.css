@@ -428,6 +428,17 @@ a {
     color: var(--text);
 }
 
+.project-submeta {
+    margin: 8px 0 0;
+    padding-left: 18px;
+    display: grid;
+    gap: 6px;
+}
+
+.project-submeta li::marker {
+    color: var(--accent);
+}
+
 .project-card a {
     margin-top: 16px;
     display: inline-flex;
